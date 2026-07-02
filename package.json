@@ -1,0 +1,22 @@
+{
+  "name": "local-invoice-generator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "vite --host 127.0.0.1",
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "4.3.4",
+    "vite": "5.4.21",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "html2pdf.js": "0.10.3",
+    "docx": "9.5.1",
+    "file-saver": "2.0.5"
+  },
+  "devDependencies": {}
+}
