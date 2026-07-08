@@ -1,0 +1,78 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+.cache/
+
+# Runtime files
+*.pid
+*.pid.lock
+
+# Testing
+.nyc_output/
+
+# Package managers
+.pnpm-store/
+.npm/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Docker
+.docker/
+
+# Docker Compose overrides
+docker-compose.override.yml
+
+# ESLint
+.eslintcache
+
+# Turbo
+.turbo/
+
+# Vite
+.vite/
+
+# Next.js
+.next/
+
+# Nuxt
+.nuxt/
+
+# SvelteKit
+.svelte-kit/
+
+# Misc
+*.local
